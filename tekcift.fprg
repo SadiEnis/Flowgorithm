@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:03:45 &#214;S"/>
+        <attribute name="created" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzExOjUyOjUxIMOWw5Y7MjgwOA=="/>
+        <attribute name="edited" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzEyOjAzOjQ1IMOWUzsxOzI3ODU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, i, x" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="i" start="0" end="100" direction="inc" step="2">
+                <assign variable="toplam" expression="toplam+i"/>
+            </for>
+            <output expression="toplam" newline="True"/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="x" start="1" end="100" direction="inc" step="2">
+                <assign variable="toplam" expression="toplam+x"/>
+            </for>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

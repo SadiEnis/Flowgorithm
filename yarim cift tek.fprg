@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:13:30 &#214;S"/>
+        <attribute name="created" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzEyOjA0OjUxIMOWUzsyNjc1"/>
+        <attribute name="edited" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzEyOjEzOjMwIMOWUzsxOzI3ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="teklerintoplam&#305;, &#231;iftlerintoplam&#305;, i, x" type="Integer" array="False" size=""/>
+            <assign variable="teklerintoplam&#305;" expression="0"/>
+            <assign variable="&#231;iftlerintoplam&#305;" expression="0"/>
+            <for variable="i" start="0" end="100" direction="inc" step="1">
+                <if expression="i%2">
+                    <then>
+                        <assign variable="&#231;iftlerintoplam&#305;" expression="&#231;iftlerintoplam&#305;+i"/>
+                    </then>
+                    <else>
+                        <assign variable="teklerintoplam&#305;" expression="teklerintoplam&#305;+i"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;tek say&#305;lar&#305;n toplam&#305;&quot;&amp;&quot;teklerintoplam&#305;&quot;" newline="True"/>
+            <output expression="&quot;&#231;ift say&#305;lar&#305;n toplam&#305;&quot;&amp;&quot;&#231;iftlerintoplam&#305;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

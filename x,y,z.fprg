@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 11:51:08 &#214;&#214;"/>
+        <attribute name="created" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzExOjQ2OjUxIMOWw5Y7MjgxMQ=="/>
+        <attribute name="edited" value="TGVub3ZvO01VSF9MQUI0MzsyMDIyLTEwLTE0OzExOjUxOjA4IMOWw5Y7MTsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <output expression="&quot;x de&#287;erini giriniz.&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;y de&#287;erini giriniz.&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;z de&#287;erini giriniz.&quot;" newline="True"/>
+            <input variable="z"/>
+            <if expression="x&gt;y">
+                <then>
+                    <if expression="x&gt;z">
+                        <then>
+                            <output expression="x" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="z" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="y&gt;z">
+                        <then>
+                            <output expression="y" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="z" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
